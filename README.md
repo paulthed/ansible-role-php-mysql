@@ -18,13 +18,13 @@ Available variables are listed below, along with default values (see `vars/main.
 
 ## Dependencies
 
-  - geerlingguy.php
+  - paulthed.php
 
 ## Example Playbook
 
     - hosts: webservers
       roles:
-        - { role: geerlingguy.php-mysql }
+        - { role: paulthed.php-mysql }
 
 ## License
 
